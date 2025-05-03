@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+    <style>
+      .toggle {
+        text-decoration: line-through;
+      }
+    </style>
+    <script defer src="./script.js?v=7.5"></script>
+    <title>ToDoApp</title>
+  </head>
+  <body>
+    <div class="contianer w-75 bg-body-secondary m-auto rounded-4 mt-5 p-3">
+      <h1 class="text-center p-3 text-bg-info text-white rounded-top-4">
+        Todo List
+      </h1>
+      <div class="form d-flex gap-5 p-4">
+        <input
+          id="taskInput"
+          class="w-75 rounded-3 border-0 px-4"
+          type="text"
+        />
+        <button onclick="addTask()" class="btn btn-info text-white shadow w-25">
+          Add Task
+        </button>
+      </div>
+      <ul id="taskList" class="w-100 bg-white list-unstyled rounded-4">
+        <!-- <li
+          id="item"
+          class="d-flex justify-content-between align-items-center border-bottom py-2"
+        >
+          <span class="fs-5">${task}</span>
+          <div class="d-flex gap-3">
+            <button class="btn btn-success text-white shadow">Toggle</button>
+            <button class="btn btn-danger text-white shadow">Delete</button>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </body>
+</html>
