@@ -19,6 +19,7 @@ const addTask = () => {
     counter++;
     inputButton.value = "";
     handelItem(); // Update the task list in the UI
+    console.log(data);
   }
 };
 //detect when the Enter key is pressed
@@ -28,7 +29,6 @@ inputButton.addEventListener("keydown", (e) => {
 
 // Function to create a task list item
 // take 3 parameters state to check elemnt is toggle or not, index to detecet position of elemnt updated
-// ريأكت ف القلب❤️
 const createItemList = (task, state, index) => {
   const itemList = document.createElement("li");
   itemList.innerHTML = `
@@ -57,7 +57,6 @@ const handelItem = () => {
 
 // Function to toggle the completion state of a task
 const toggleItem = (index) => {
-  const itemText = document.getElementById("itemText");
   data[index].done === false
     ? (data[index].done = true)
     : (data[index].done = false);
@@ -66,7 +65,8 @@ const toggleItem = (index) => {
 };
 
 const deleteItem = (index) => {
-  data = data.filter(({ id }) => id !== index);
+  data.splice(index, 1);
+  counter--;
   handelItem();
 };
 
