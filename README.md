@@ -1,6 +1,6 @@
 # Task 3 - Phase 1 - Web Masters Internship
 
-This is **Task 3** in **Phase 1** of the [Web Masters](#) Internship program.
+This is **Task 3** in **Phase 1** of the [Web Masters](https://www.linkedin.com/company/web-masters-academy/posts/?feedView=all) Internship program.
 
 ## Task Description
 
@@ -25,7 +25,7 @@ This task provided hands-on experience in:
 
 ## Live Demo
 
-You can view the live demo of the ToDo App [here](#).
+You can view the live demo of the ToDo App [here](https://todo-app-m7meda.netlify.app/).
 
 ## Notes
 
