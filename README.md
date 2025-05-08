@@ -25,7 +25,7 @@ This task provided hands-on experience in:
 
 ## Live Demo
 
-You can view the live demo of the ToDo App [here](https://todo-app-m7meda.netlify.app/).
+You can view the live demo of the ToDo App [here](https://todo-m7med.netlify.app/).
 
 ## Notes
 
